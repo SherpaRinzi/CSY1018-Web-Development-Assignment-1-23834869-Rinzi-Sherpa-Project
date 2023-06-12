@@ -118,6 +118,58 @@
   }
 
   span{
-
     color: crimson;
   }
+
+
+
+  /*Portfolio Section Styling*/
+  .about .title::after{
+    content: "Who I am";
+  }
+  .about .content .left{
+    width: 45%;
+  }
+  
+  .about .content .left img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .about .content .right{
+    width: 55%;
+  }
+
+  .about .content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+.about .content .right .text .typing-2{
+  color: crimson;
+}
+
+.about .content .right p{
+  text-align: justify;
+}
+
+.about .content .right a{
+  display: inline;
+  background: crimson;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.about .content .right a:hover{
+  color: crimson;
+  background: none;
+}
