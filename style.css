@@ -74,7 +74,7 @@ section .title::before{
     position: fixed;
     background: #1b1b1b;
     width: 100%;
-    padding: 10px 0;
+    padding: 31px 0;
     z-index: 12;
   }
   nav .menu{
